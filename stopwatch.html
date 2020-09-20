@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./stopwatch.css">
+</head>
+<body>
+    <div class="cont">
+        <p id="timer" class="timer_stopwatch">TIMER</p>
+        <p id="stopwatch" class="timer_stopwatch nav">STOPWATCH</p>
+    </div>
+    <div class="cont">
+        <input type="text" value="00" placeholder="00">
+        <input type="text" placeholder="h" disabled="true">
+        <input type="text" value="05" placeholder="05">
+        <input type="text" placeholder="m" disabled="true">
+        <input type="text" value="00">
+        <input type="text" placeholder="s" disabled="true">
+    </div>
+    <div class="cont">
+        <button>START</button>
+        <button>RESET</button>
+    </div>
+    <audio src="https://actions.google.com/sounds/v1/alarms/digital_watch_alarm_long.ogg"></audio>
+
+    <script id="common" src="./common.js"></script>
+    <script id="stopwatch_script" src="./stopwatch.js"></script>
+</body>
+</html> 
